@@ -1,0 +1,19 @@
+<div>
+<h3 class="cartele">{{data.itemName}}</h3>
+<span class="cartele">{{data.price | currency}}</span>
+
+    <img class="cartimg" src="{{data.imgSrc}}"><br>
+
+
+    <button ng-click="somemore($index,data.quantity,data.itemName,data.price,data.quantityRemaining,data.imgSrc)">+</button>
+
+    <span>{{data.quantity}}</span>
+
+    <button ng-click="someless($index,data.quantity,data.itemName,data.price,data.quantityRemaining,data.imgSrc)">-</button>
+
+
+
+    <br><br>
+<p class="cartele">Subtotal:{{data.quantity}}X{{data.price | currency}}={{data.quantity*data.price | currency}}</p>
+<p ng-click="removeItem($index)" class="delete">Delete</p>
+</div>

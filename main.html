@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jarvis Shop Cart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link  rel="stylesheet" type="text/css" href="main.css">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+
+</head>
+<body ng-app="MyApp" ng-controller="shopcart">
+<ul>
+    <li><span>Fruit</span></li>
+</ul>
+
+
+
+<div   id="item">
+    <my-item ng-repeat="item in items"></my-item>
+</div>
+
+
+
+
+<aside  >
+    <h2>Shopping Cart</h2>
+    <h5>{{totalitem()}} items</h5>
+<div id="shopcart">
+     <my-cart ng-repeat="data in invoice.datas"></my-cart>
+
+
+</div>
+
+    <p class="result">Total: {{total() | currency}}</p><br><br><br><br>
+    <p class="emptycart" ng-click="emptyCart()">Empty Cart</p><br>
+    <button id="confirmPur" ng-click="updatelist()">Confirm Purchase</button>
+
+</aside>
+
+
+<script src="main.js"></script>
+</body>
+</html>

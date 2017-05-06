@@ -1,0 +1,199 @@
+my-item img{
+    height: 125px ;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+
+ }
+figcaption{
+    text-align: center;
+}
+figure{
+    height: 175px;
+}
+my-item{
+    margin: 2%;
+
+
+    float: left;
+    width: 21%;
+    height: 300px;
+    border: 1px;
+    border-color: #1daf96;
+    border-style: solid;
+}
+#item{
+    margin-left: 2%;
+    float: left;
+    width: 75%;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: 5px;
+    border-bottom-color: #1daf96;
+    border-style: solid;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+    border-top-color: #ffffff;
+
+}
+
+li {
+    margin-left: 1%;
+    margin-top: 30px;
+    width: 200px;
+    font-size: 50px;
+    color: #ffffff;
+    float: left;
+    background-color: #1daf96;
+
+
+
+}
+ul span{
+    margin-left: 20%;
+
+}
+my-item span{
+
+    margin-left: 20%;
+}
+
+
+aside{
+    float: left;
+    width: 18%;
+    margin-right: 5%;
+    color: #ffffff;
+    background-color: #1daf96;
+    height: 1400px;
+}
+my-item button{
+    width: 80%;
+    margin-left: 10%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #0e0e0e;
+    background-color: #1daf96;
+
+
+}
+.price{
+    font-size: 220%;
+}
+aside h2,h5{
+    text-align: center;
+}
+#confirmPur{
+    float: right;
+    margin-right: 10%;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #0e0e0e;
+    background-color: #c5e5d3;
+    font-weight: bold;
+
+}
+aside my-cart button{
+    float: right;
+    margin-right: 10%;
+    width: 10%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #0e0e0e;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+.result{
+    margin-right: 5%;
+    float: right;
+    font-size: 200%;
+    font-weight: bold;
+}
+.result{
+    margin-top: 4%;
+    border-bottom: 2px;
+    border-top-color: #ffffff;
+    border-style: solid;
+    border-left-color: #1daf96;
+    border-right-color: #1daf96;
+    border-bottom-color: #1daf96;
+}
+
+
+.emptycart{
+    cursor: pointer;
+
+    margin-right: 5%;
+
+    float: right;
+}
+my-cart div{
+    color: #0e0e0e;
+    margin-top: 4%;
+    background-color: #1ecdb3;
+}
+my-cart span{
+    width: 10%;
+    float: right;
+}
+.delete{
+    margin-left: 80%;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.cartele{
+    margin-left: 10%;
+}
+.cartimg{
+    margin-left: 5%;
+    float: left;
+    width: 50px;
+}
+my-cart span{
+    margin-right: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
