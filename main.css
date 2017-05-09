@@ -13,8 +13,6 @@ figure{
 }
 my-item{
     margin: 2%;
-
-
     float: left;
     width: 21%;
     height: 300px;
@@ -22,6 +20,7 @@ my-item{
     border-color: #1daf96;
     border-style: solid;
 }
+
 #item{
     margin-left: 2%;
     float: left;
@@ -45,27 +44,25 @@ li {
     margin-left: 1%;
     margin-top: 30px;
     width: 200px;
-    font-size: 50px;
+    font-size: 300%;
     color: #ffffff;
     float: left;
     background-color: #1daf96;
-
-
-
 }
+
 ul span{
-    margin-left: 20%;
-
+    margin-left: 25%;
 }
-my-item span{
 
-    margin-left: 20%;
+my-item span{
+    margin-left: 10%;
 }
 
 
 aside{
     float: left;
     width: 18%;
+    margin-top: -1%;
     margin-right: 5%;
     color: #ffffff;
     background-color: #1daf96;
@@ -73,6 +70,7 @@ aside{
 }
 my-item button{
     width: 80%;
+    margin-top: 5%;
     margin-left: 10%;
     border: none;
     cursor: pointer;
@@ -83,14 +81,15 @@ my-item button{
 
 }
 .price{
-    font-size: 220%;
+    font-size: 250%;
 }
 aside h2,h5{
     text-align: center;
 }
 #confirmPur{
     float: right;
-    margin-right: 10%;
+    margin-right: 5%;
+    margin-top: 3%;
     width: 60%;
     border: none;
     cursor: pointer;
@@ -100,67 +99,81 @@ aside h2,h5{
     font-weight: bold;
 
 }
-aside my-cart button{
+.modify{
     float: right;
     margin-right: 10%;
     width: 10%;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 2px;
     color: #0e0e0e;
     background-color: #ffffff;
     font-weight: bold;
 }
+
+.quan{
+    margin-right:6%;
+    float: right;
+}
+
 .result{
     margin-right: 5%;
     float: right;
-    font-size: 200%;
     font-weight: bold;
 }
-.result{
-    margin-top: 4%;
-    border-bottom: 2px;
-    border-top-color: #ffffff;
-    border-style: solid;
-    border-left-color: #1daf96;
-    border-right-color: #1daf96;
-    border-bottom-color: #1daf96;
-}
 
 
-.emptycart{
+
+#emptycart{
     cursor: pointer;
+    border: none;
+    margin-left: 65%;
+    background-color: #1daf96;
 
-    margin-right: 5%;
-
-    float: right;
 }
 my-cart div{
     color: #0e0e0e;
     margin-top: 4%;
     background-color: #1ecdb3;
 }
-my-cart span{
-    width: 10%;
-    float: right;
-}
 .delete{
-    margin-left: 80%;
     color: #ffffff;
+    border: none;
     cursor: pointer;
+    margin-left: 75%;
+    background-color: #1ecdb3;
+
 
 }
 .cartele{
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .cartimg{
     margin-left: 5%;
     float: left;
     width: 50px;
 }
+.carttotal{
+    margin-left: 5% ;
+    margin-top: 10%;
+}
 my-cart span{
     margin-right: 15%;
 }
+
+
+.lineup{
+    margin-top: 7%;
+    margin-left: 10%;
+    border-radius: 20px;
+    border-bottom: 2px;
+    border-bottom-color: #ffffff;
+    border-style: solid;
+    border-left-color: #1daf96;
+    border-right-color: #1daf96;
+    border-top-color: #1daf96;
+}
+
 
 
 

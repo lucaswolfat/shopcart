@@ -1,16 +1,8 @@
 <figure>
-
-<img src="{{item.imgSrc}}"><br>
+    <img src="{{item.imgSrc}}"><br>
     <figcaption>
-{{item.itemName}}
+        {{item.itemName}}
     </figcaption>
 </figure>
-    <br>
 <span class="price">${{item.price}}</span>    {{item.quantityRemaining}}  In Stock<br>
-
-
-
-
-
-
 <button ng-click="additem(item.itemName,item.price,item.quantityRemaining,item.imgSrc)">Add to Cart</button>

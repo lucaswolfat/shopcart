@@ -16,33 +16,43 @@
 
 </head>
 <body ng-app="MyApp" ng-controller="shopcart">
+<!--
+navigation bar for some more content
+-->
+<header>
 <ul>
     <li><span>Fruit</span></li>
 </ul>
+</header>
 
-
-
+<div>
+<!--
+display all the items in the json file
+-->
 <div   id="item">
     <my-item ng-repeat="item in items"></my-item>
 </div>
 
-
-
-
-<aside  >
+<!--
+shopping cart
+-->
+<aside>
     <h2>Shopping Cart</h2>
     <h5>{{totalitem()}} items</h5>
-<div id="shopcart">
-     <my-cart ng-repeat="data in invoice.datas"></my-cart>
 
+<!--
+    show all the chosen items
+-->
+    <div id="shopcart">
+      <my-cart ng-repeat="data in invoice.datas"></my-cart>
+    </div>
 
-</div>
-
-    <p class="result">Total: {{total() | currency}}</p><br><br><br><br>
-    <p class="emptycart" ng-click="emptyCart()">Empty Cart</p><br>
+    <div class="lineup"></div>
+    <h4 class="result">Total: {{total() | currency}}</h4>
+    <button id="emptycart" ng-click="emptyCart()">Empty Cart</button><br>
     <button id="confirmPur" ng-click="updatelist()">Confirm Purchase</button>
-
 </aside>
+</div>
 
 
 <script src="main.js"></script>
